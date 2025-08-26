@@ -8,5 +8,4 @@ func main() {
 	fmt.Println("Shilkrot!")
 	fmt.Println("Netanya")
 	fmt.Println("Karl")
-
 }
