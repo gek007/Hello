@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"math"
+	"time"
 )
 
 type Person struct {
@@ -78,6 +79,9 @@ func main() {
 		"Alice": 30,
 		"Bob":   25,
 	}
+
+	t := time.Now()
+	fmt.Println("Current time:", t)
 
 	// Add a new key-value pair
 	ages["Charlie"] = 22
